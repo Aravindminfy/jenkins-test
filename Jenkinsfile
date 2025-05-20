@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Python') {
             steps {
-                sh 'python3 your_script.py'
+                sh 'python3 oop_solutions.py'
             }
         }
     }
